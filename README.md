@@ -6,7 +6,7 @@ The results I get are to large to upload, see `models.md` to get more info.
 
 This repo is my graduation project, Face Recognition. The whole code I used is in code folder.
 I use Keras to design net architecture(ptorch is not finished, and will not be append), trian 
-and analyse, for ConvNet visualization, I use Keras-vis, it is convient and help a lot.
+and analyse, for convnet visualization, I use Keras-vis, it is convient and helps a lot.
 
 I experiment SGD, RMSProp and Adam on Vanilla CNN, and found Adam > RMSProp > SGD.
 
