@@ -86,3 +86,9 @@ def load_model_history(name: str):
     with codecs.open('../../models/' + name + '.json', 'r', 'utf-8') as f:
          history = json.load(f)
     return model, history
+
+
+def load_history(name: str):
+    with codecs.open('../../models/' + name + '.json', 'r', 'utf-8') as f:
+         history = json.load(f)
+    return history

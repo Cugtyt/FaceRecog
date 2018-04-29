@@ -73,6 +73,13 @@ def avg_float_asian():
     test_data = test_data.astype('float32') / 255
     return train_data, test_data, train_label, test_label
 
+def avg_float_asian_sample():
+    train_data, test_data = load_data('../../data/AsianSample/')
+    train_label, test_label = load_label('../../data/AsianSample.txt')
+    train_data = train_data.astype('float32') / 255
+    test_data = test_data.astype('float32') / 255
+    return train_data, test_data, train_label, test_label
+
 
 def data_augmentation():
     datagen = ImageDataGenerator(
